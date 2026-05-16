@@ -6,6 +6,7 @@ import rasterio
 
 class CompareRaster:
     def __init__(self, raster_a, raster_b, download_path):
+        # raster a should be past and b should be present
         self.raster_a = raster_a
         self.raster_b = raster_b
         self.download_path = download_path

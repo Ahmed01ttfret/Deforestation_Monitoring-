@@ -12,3 +12,29 @@ The `Query` class can be used to retrieve stored raster data for comparison and 
 
 
 '''
+
+
+# from DataCollection import GetData
+# from ProcessData.ProcessData import CompareRaster
+# from Storage.ReadJson import Query
+# from Storage.SaveRaser import SaveFile
+
+
+
+# area = [
+#     -1.99801489375355,   # min longitude
+#     5.2805918587745,     # min latitude
+#     -1.930893600920613,  # max longitude
+#     5.336964040041853    # max latitude
+# ]
+# data=GetData.GetData(study_area=area,date="2021-01-01/2023-12-31")
+# read=data.Read_files()
+# ndvi=data.NDVI(data=read)
+ 
+# SaveFile(ndvi=ndvi,datetime='2020-01-01/2021-12-31')
+
+
+# raters=Query().Get_rencent_data()
+
+# pro=CompareRaster(raster_a=raters[0]['Path'],raster_b=raters[1]['Path'],download_path='D:\Programming Projects\Geospacial Monitoring')
+# pro.detail_compare()
